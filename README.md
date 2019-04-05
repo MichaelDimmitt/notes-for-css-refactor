@@ -39,5 +39,9 @@ objectives, obstacles, the process for solution, discussion - things to consider
 6) rewrite the inline styles back into the css file with empty classNames, using find and replace.
 7) switch to the new css file and congratulate yourself ... pray that nothing is broken 
 <br/>and consider writing more tests over styling.
+8) check tachyons for a class to replace repeated css: https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.css
+<br/>... copy the response from the tachyons link to a css file format with a code formatter 
+<br/>... then search based on css class. whoa you did not find a css class that could remove the duplication 
+<br/>... no worries make a global css class for your project ... but wait! check tachyons before hand by searching that name. It exists in tachyons pick a different name. Example: `padding: absolute` 🤔 ... hmm. class: pa! Searching pa in tachyons... we are good. put in the global css file brought in by index.html.
 
 # Anything to add? open an issue or submit a pr!
